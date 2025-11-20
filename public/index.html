@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Estudiantes - API Node + PostgreSQL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>API REST con Node.js + PostgreSQL</h1>
+
+  <div class="methods">
+    <span class="badge get">GET</span>
+    <span class="badge post">POST</span>
+    <span class="badge put">PUT</span>
+    <span class="badge delete">DELETE</span>
+  </div>
+
+  <h2>Lista de Estudiantes</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-estudiantes"></tbody>
+  </table>
+
+  <h2>Agregar / Editar Estudiante</h2>
+  <form id="formulario">
+    <input type="hidden" id="id">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="edad" placeholder="Edad">
+    <button type="submit">Guardar</button>
+  </form>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
