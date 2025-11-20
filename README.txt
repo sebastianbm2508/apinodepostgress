@@ -2,6 +2,7 @@ Trabajo realizado por Sebastian Bolivar Millan
 
 en este proyecto se desarrolla una API REST usando Node.js, Express y PostgreSQL. permite realizar operaciones crud: Crear, Leer, Actualizar y Eliminar estudiantes.
 
+se debe importar para que funcione que esta en https://github.com/sebastianbm2508/apinodepostgres.git
 Métodos HTTP implementados:
 
 GET, POST, PUT, DELETE
